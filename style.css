@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+   }
+
+.product-hunt-badge{
+    width: 250px !important;
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+}
+.subheading{
+    font-size: 19px !important;
+    font-weight: 500 !important;
+    line-height: 28.5px !important;
+    color: rgb(153, 153, 153) !important;
+}
+.hero-heading{
+    font-size: 60px !important;
+    font-weight: 800 !important;
+    line-height: 66px !important;
+    color: rgb(255, 255, 255) !important;
+    margin-bottom: 5% !important;
+}
+
+.btn-warning {
+    background-color: gold;
+    border-color: gold;
+    color: white;
+    margin-top: 5% !important;
+  }
+  .btn-warning:hover {
+    background-color: #f1c15d;
+    border-color: #f1c15d;
+    color: white;
+  }
+  .btn-rounded {
+    border-radius: 25px !important;
+  }
+  .btn-lg {
+    padding: 1rem 2rem;
+  }
+
+  .inline-review {
+    display: flex;
+    align-items: center;
+    background-color: #222222 !important;
+    width: 550px !important;
+    border-radius: 25px !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    padding: 10px !important;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-left: 15px !important;
+}
+
+:root {
+    --star-size: 22px;
+    --star-color: #fff;
+    --star-background: #fc0;
+  }
+  
+  .Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    line-height: 1;
+  
+    &::before {
+      content: "★★★★★";
+      letter-spacing: 3px;
+      background: linear-gradient(
+        90deg,
+        var(--star-background) var(--percent),
+        var(--star-color) var(--percent)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+.text {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white !important;
+    margin-left: 15px !important;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    margin-left: 15px !important;
+}
+
+.images img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.hero-image-review{
+    border-radius: 25px !important;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px !important;
+}
