@@ -1,7 +1,6 @@
 body {
   font-family: roboto !important;
    }
-
 .product-hunt-badge{
     width: 250px !important;
     margin-top: 10% !important;
@@ -219,7 +218,7 @@ body {
 @media only screen and (max-width: 600px) {
   .background-adv-one-review{
     background-color: #F7EFD5 !important;
-    width: 370px !important;
+    width: 100%  !important;
     border: 2px solid #fc0 !important;
     border-radius: 25px !important;
     margin-top: 7% !important;
@@ -294,7 +293,7 @@ body {
     line-height: 30px !important;
     color: rgb(68, 68, 68) !important;
     text-align: center !important;
-    width: 330px !important;
+    width: 100%  !important;
     margin-top: 5% !important;
   }
 }
@@ -311,7 +310,7 @@ body {
 @media only screen and (max-width: 600px) {
   .background-biggest-mistakes{
     background-color: rgba(245, 88, 122, 0.215) !important;
-    width: 370px !important;
+    width: 100% !important;
     border: 4px dashed rgb(228,23,73, 0.315) !important;
     border-radius: 25px !important;
     margin-top: 7% !important;
@@ -376,7 +375,7 @@ body {
 @media only screen and (max-width: 600px) {
   .background-adv-two{
     background-color: rgb(255, 255, 255) !important;
-    width: 370px !important;
+    width: 100%  !important;
     border: 4px dashed rgba(95, 95, 95, 0.356) !important;
     border-radius: 25px !important;
     margin-top: 7% !important;
@@ -387,7 +386,7 @@ body {
 @media only screen and (max-width: 600px) {
   .text-adv-two{
     text-align: left !important;
-    width: 320px !important;
+    width: 100%  !important;
     margin-left: 2% !important;
     margin-top: 5% !important;
     font-size: 20px !important;
@@ -517,4 +516,29 @@ body {
 }
 li{
   list-style-type: none;
+}
+.background-adv-thre{
+  background-color: black !important;
+  padding: 20px !important;
+  width: 700px !important;
+  border-radius: 25px !important;
+}
+.bi-fire{
+  color: red !important;
+  margin-top: 25px !important;
+}
+.heading-adv-thre{
+  color: white !important;
+  font-size: 42px !important;
+  font-weight: 800 !important;
+}
+.text-adv-thre{
+  color: gray !important;
+  text-align: left !important;
+  width: 600px !important;
+  margin-left: 7% !important;
+  margin-top: 5% !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
 }
