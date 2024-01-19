@@ -214,7 +214,17 @@ body {
   border-radius: 25px !important;
   margin-top: 7% !important;
   margin-bottom: 7% !important;
+}
 
+@media only screen and (max-width: 600px) {
+  .background-adv-one-review{
+    background-color: #F7EFD5 !important;
+    width: 370px !important;
+    border: 2px solid #fc0 !important;
+    border-radius: 25px !important;
+    margin-top: 7% !important;
+    margin-bottom: 7% !important;
+  }
 }
 .rating-adv-one {
   display: flex;
@@ -283,8 +293,8 @@ body {
     font-size: 20px !important;
     line-height: 30px !important;
     color: rgb(68, 68, 68) !important;
-    text-align: left !important;
-    width: 400px !important;
+    text-align: center !important;
+    width: 330px !important;
     margin-top: 5% !important;
   }
 }
@@ -377,7 +387,7 @@ body {
 @media only screen and (max-width: 600px) {
   .text-adv-two{
     text-align: left !important;
-    width: 350px !important;
+    width: 320px !important;
     margin-left: 2% !important;
     margin-top: 5% !important;
     font-size: 20px !important;
