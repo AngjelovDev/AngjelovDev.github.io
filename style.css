@@ -634,6 +634,20 @@ margin-right: auto !important;
   padding: 10px !important;
   background-color: rgba(114, 171, 0, 0.08) !important;
 }
+@media only screen and (max-width: 600px) {
+  .inline-review-adv-five{
+    display: block;
+    align-items: center;
+    width: 250px !important;
+    border-radius: 25px !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    padding: 10px !important;
+    background-color: rgba(114, 171, 0, 0.08) !important;
+    
+  }
+}
+
 .heading-adv-six{
   margin-top: 7% !important;
   font-weight: 800 !important;
@@ -698,10 +712,315 @@ margin-right: auto !important;
   font-size: 48px !important;
   font-weight: 800 !important;
   line-height: 57.6px !important;
+  margin-bottom: 5% !important;
+  margin-top: 5% !important;
 }
 .image-preview-plan{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+.heading-adv-eight{
+  text-align: center !important;
+  font-size: 48px !important;
+  font-weight: 800 !important;
+  line-height: 57.6px !important;
+  margin-top: 5% !important;
+}
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 700px !important;
+}
+@media only screen and (max-width: 600px) {
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    margin-left: -250% !important;
+    background-color: #444444 !important;
+  }
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+  margin-top: 15px;
+  background-color: #444444 !important;
+}
+
+.circle {
+  font-size: 22px !important;
+  font-weight: bold;
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: #ccc;
+  margin-left: -309px !important;
+  margin-top: -30px !important;
+}
+@media only screen and (max-width: 600px) {
+  .line {
+    width: 2px;
+    height: 50px;
+    background-color: #ccc;
+    margin-left: -62% !important;
+    margin-top: -30px !important;
+  }
+}
+
+
+.text-timeline{
+  margin-top: -70px !important;
+  margin-left: 70px !important;
+  width: 500px !important;
+  font-size: 18px !important;
+}
+@media only screen and (max-width: 600px) {
+  .text-timeline{
+    margin-top: -70px !important;
+    margin-left: 100px !important;
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+}
+.heading-timeline{
+  text-align: center !important;
+  margin-top: 7% !important;
+  font-size: 48px !important;
+  font-weight: 900 !important;
+  line-height: 57.6px !important;
+}
+@media only screen and (max-width: 600px) {
+  .heading-timeline{
+    margin-top: 7% !important;
+    font-size: 36px !important;
+    font-weight: 900 !important;
+  }
+}
+body > section:nth-child(3) > div:nth-child(5) > h2 > mark{
+  background-color: #C3DEFA !important;
+}  
+#buy-offer{
+  background-color: black !important;
+  margin-top: 7% !important;
+  margin-bottom: 7% !important;
+  padding-bottom: 5% !important;
+}
+.subheading-buy-offer{
+  text-align: center !important;
+  line-height: 19.2px !important;
+  color: #FED300 !important;
+  font-weight: 600 !important;
+  padding-top: 5% !important;
+}
+@media only screen and (max-width: 600px) {
+  .subheading-buy-offer{
+    text-align: center !important;
+    line-height: 19.2px !important;
+    color: #FED300 !important;
+    font-weight: 600 !important;
+    padding-top: 5% !important;
+    font-size: 14px !important;
+  }
+}
+.heading-buy-offer{
+  text-align: center !important;
+  font-weight: 900 !important;
+  font-size: 42px !important;
+  color: white !important;
+  width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media only screen and (max-width: 600px) {
+  .heading-buy-offer{
+    text-align: center !important;
+    font-weight: 900 !important;
+    font-size: 36px !important;
+    color: white !important;
+    width: 100% !important;
+  }
+}
+.card{
+  width: 550px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 5% !important;
+  border-radius: 25px !important;
+}
+@media only screen and (max-width: 600px) {
+  .card{
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+    border-radius: 25px !important;
+  }
+}
+
+.card-header{
+  color:#77A618 !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  line-height: 19.2px !important;
+  letter-spacing: 2px !important;
+}
+.subheading-card{
+  color: #000 !important;
+  font-weight: 300 !important;
+  letter-spacing: normal !important;
+  font-size: 14px !important;
+}
+.old-price{
+  font-size: 36px !important;
+  letter-spacing: 3px !important;
+  color: grey !important;
+  font-weight: 900 !important;
+  opacity: 0.5 !important;
+}
+.card-text{
+  text-align: center !important;
+}
+.new-price{
+  text-align: center !important;
+  font-size: 72px !important;
+  font-weight: 900 !important;
+  color: black !important;
+  margin-top: -35px !important;
+  letter-spacing: 3px !important;
+}
+.discount{
+  font-size: 14px !important;
+  text-align: center !important;
+  background-color: #E02020 !important;
+  width: 260px !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: white !important;
+  margin-top: -15px !important;
+  font-weight: 900 !important;
+  padding-top: 8px !important;
+}
+#currentDay{
+  text-transform: uppercase !important;
+}
+.hr{
+  border-bottom: 2px solid grey !important;
+  opacity: 0.4 !important;
+  width: 430px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media only screen and (max-width: 600px) {
+  .hr{
+    border-bottom: 2px solid grey !important;
+    opacity: 0.4 !important;
+    width: 290px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+.heading-list-buy-offer{
+  font-size: 21px !important;
+  line-height: 25.2px !important;
+  font-weight: 800 !important;
+  width: 430px !important;
+  margin-left: 40px !important;
+  margin-top: 5% !important;
+}
+@media only screen and (max-width: 600px) {
+  .heading-list-buy-offer{
+    font-size: 21px !important;
+    line-height: 25.2px !important;
+    font-weight: 800 !important;
+    width: 80% !important;
+    margin-left: 40px !important;
+    margin-top: 5% !important;
+  }
+}
+.bonus-buy-offer{
+  font-size: 10px !important;
+  line-height: 15px !important;
+  background-color: #77A618 !important;
+  color: white !important;
+  font-weight: 800 !important;
+  border-radius: 5px !important;
+  padding: 3px !important;
+}
+.check-list-buy-offer{
+  margin-left: -35px !important;
+  letter-spacing: 0.5px !important;
+  line-height: 30px !important;
+  font-weight: 500 !important;
+  opacity: 0.9 !important;
+}
+@media only screen and (max-width: 600px) {
+  .check-list-buy-offer{
+    margin-left: 5px !important;
+    letter-spacing: 0.5px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
+    opacity: 0.9 !important;
+  }
+}
+.text-buy-offer{
+  margin-left: 42px !important;
+  margin-top: 5% !important;
+  font-weight: 500 !important;
+}
+.text-buy-offer-second{
+  margin-left: 42px !important;
+  margin-top: -2.5% !important;
+  font-weight: 500 !important;
+}
+.background-text-buy-offer{
+  background-color: #f7ecc9 !important;
+  padding: 5px !important;
+  border-radius: 5px !important;
+}
+.pay-text-offer{
+  font-size: 12px !important;
+  text-align: center !important;
+}
+.logos-payment{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .button-buy-offer{
+    margin-left: 10% !important;
+  }
 }
